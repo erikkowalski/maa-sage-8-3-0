@@ -1,0 +1,79 @@
+/*----------- footer -----------*/
+
+footer {
+	padding:1em;
+	margin-bottom:1em;
+	padding-bottom: 10em;
+	background: white;
+
+}
+
+footer p {
+	font-family:"";
+}
+
+.content-info {
+	background-image:url(../img/patterns/rebel.png);
+	margin-bottom:0;
+
+	border-top:20px solid #e3e3e3;
+}
+
+.content-info h3 {
+	letter-spacing:0.1em;
+	font-weight:400;
+}
+
+.content-info p {
+	font-size:0.4em;
+}
+
+.content-info, .content-info p{
+	color:#999;
+	font-size:1.1em;
+}
+
+
+.content-info h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+}
+
+.content-info ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+
+footer .container > p {
+	letter-spacing:0.08em;
+	text-align:center;
+}
+
+/* add boostrap grid col-md-3 styling to footer widgets */
+
+.content-info .widget {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+@media (min-width: 768px) {
+	.content-info .widget {
+		float: left;
+		width: 50%;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.content-info .widget {
+		float: left;
+		width: 25%;
+	}
+} /* close media querie */

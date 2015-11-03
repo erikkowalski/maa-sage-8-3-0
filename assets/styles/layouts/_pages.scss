@@ -1,0 +1,71 @@
+/*------- Contact Form style -----*/
+
+
+
+#contact {
+	padding:0 4em 14em 4em;
+
+}
+
+.contact .page-header {
+	padding: 0;
+}
+
+.contact .page-header h1{
+	line-height: 1em;
+	margin: 0.3em 0 0 0;
+}
+
+.contact hr {
+	margin-top: 0;
+}
+
+#contact div {
+}
+
+#contact  {
+	max-width:700px;
+	margin: 0 auto;
+}
+
+#contact-header  {
+	max-width:700px;
+	margin: 0 auto;
+	padding: 0 0 0 4em;
+}
+
+#contact .page-header {
+	padding-bottom: 0;
+}
+
+#contact h2{
+	margin: 0.5em 0 0 0;
+}
+
+#textfield  {
+	margin:1em 0 1em 0;
+}
+
+#emailfield {
+	margin:1em 0 1em 0;
+}
+
+#messagefield {
+	margin:1em 0 1em 0;
+}
+
+#contact h1 {
+	padding:0.5em 0 0.5em 0.5em;
+	border-radius:10px;
+	margin-top:2em;
+	letter-spacing:0.03em;
+}
+
+#contact textarea {
+	min-height: 100px;
+}
+
+.error {
+	color:rgb(160, 72, 72);
+	padding-left:1em;
+}

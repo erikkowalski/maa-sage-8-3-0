@@ -1,0 +1,146 @@
+/* Images */
+.entry-content img,
+.comment-content img,
+.widget img {
+	max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+	height: auto;
+}
+img.size-full {
+	max-width: 100%;
+	width: auto;
+}
+
+img.wp-post-image {
+	max-width: 100%;
+	height:auto;
+}
+
+/*-----------Horizontal Rule Styles -----------*/
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+	background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+	background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+hr.fancy {
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+}
+
+hr.fancy:after {
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+}
+
+/*-----------Global Styles -----------*/
+
+body {
+	background-image: url(../images/patterns/silver_scales.png);
+}
+
+h2 {font-weight: 100;}
+
+
+.wrap {
+	background: white;
+	max-width: 970px;
+	padding-bottom: 4em;
+	border-right: 5px solid #f8f8f8;
+	border-left: 5px solid #f8f8f8;
+}
+
+/*-----------Navbar Styles -----------*/
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar .container {
+	max-width: 970px;
+}
+
+.navbar-default {
+	border-bottom: 10px solid rgba(185, 229, 251, 0.13);
+}
+
+.navbar-brand {
+	padding:10px 0 0 5px;
+}
+
+.navbar-collapse a {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: "adelle";
+}
+/*----------- Link Styles -----------*/
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.entry-title a:hover {
+	color: #00A9D3;
+}
+
+/*----------- Home Slider Styles -----------*/
+
+
+.carousel {
+	border-top: 10px solid white;
+}
+
+.carousel h1 {
+	font-family: "bello-pro";
+	font-size: 5em;
+}
+
+.carousel p {
+	font-family: "adelle";
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 100;
+}
+
+
+.page-header {
+	border-bottom: none;
+	margin: 0;
+}
+
+.home .page-header h1{
+	font-size: 5em;
+	font-family: "bello-pro";
+	text-align: center;
+	color: #333;
+}
+
+.page-header h1{
+	font-size: 5em;
+	font-family: "bello-pro";
+	color: #333;
+}
+
+.home-promo h2{
+	margin-top: 0;
+}
+
+.home-promo img {
+	margin-bottom: 10px;;
+}
+
